@@ -1135,14 +1135,14 @@ Team Style
 --------------------------------------------- 
 */
 
-.team {
+/* .team {
   margin-top: 100px;
     padding-top: 140px;
-}
+} */
 
 .team-member {
   position: relative;
-  left: 150%;
+  /* left: 150%; */
 }
 
 .team-member:hover img {
@@ -1632,15 +1632,16 @@ Footer Style
 footer {
   margin-top: 150px;
   position: relative;
+  padding: 8vh;
   background-color: #7a6ad8;
   vertical-align: middle;
-  min-height: 150px;
+  /* min-height: 150px; */
   border-radius: 150px 150px 0px 0px;
 }
 
 footer p {
   text-align: center;
-  line-height: 150px;
+  /* line-height: 150px; */
   color: #fff;
   font-weight: 400;
 }
