@@ -1901,3 +1901,14 @@ body {
     width: 95%;
   }
 }
+
+ @media (min-width: 767px) {
+  .team-member {
+    max-width: 350px;
+    text-align: center;
+  }
+  .row-custom {
+    display: flex;
+    justify-content: center;
+  }
+}
