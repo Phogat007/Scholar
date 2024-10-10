@@ -3,14 +3,49 @@
 
   <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Scholar | Your Academic Companion</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Scholar | Your Academic Companion">
+    <meta name="description" content="Scholar is your one-stop platform for academic resources. Access previous year papers, syllabus, notes, and recommended courses to excel in your studies.">
+    <meta name="keywords" content="Scholar, academic resources, previous year papers, syllabus, notes, recommended courses, Subodh PG College, MCA, BCA, study materials, exam preparation, student resources, college notifications, academic success">
 
-    <title>Courses</title>
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Scholar | Your Academic Companion">
+    <meta property="og:description" content="Scholar is your one-stop platform for academic resources. Access previous year papers, syllabus, notes, and recommended courses to excel in your studies.">
+    <meta property="og:image" content="https://yourwebsite.com/path-to-your-image.jpg">
+    <meta property="og:url" content="https://scholar.flux8labs.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:title" content="Scholar | Your Academic Companion">
+    <meta name="twitter:description" content="Scholar is your one-stop platform for academic resources. Access previous year papers, syllabus, notes, and recommended courses to excel in your studies.">
+    <meta name="twitter:image" content="https://yourwebsite.com/path-to-your-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Structured Data for Better SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Scholar",
+        "url": "https://scholar.flux8labs.com",
+        "logo": "https://yourwebsite.com/path-to-your-logo.jpg",
+        "description": "Scholar is your one-stop platform for academic resources, including previous year papers, syllabus, notes, and recommended courses for students at Subodh PG College.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Subodh PG College",
+            "addressRegion": "India"
+        }
+    }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
 
 
     <!-- Additional CSS Files -->
@@ -101,146 +136,161 @@
           <a class="is_active" href="#!" data-filter="*">Show All</a>
         </li>
         <li>
-          <a href="#!" data-filter=".design">Webdesign</a>
+          <a href="#!" data-filter=".webdev">Web Development</a>
         </li>
         <li>
-          <a href="#!" data-filter=".development">Development</a>
+          <a href="#!" data-filter=".programming">Programming</a>
         </li>
         <li>
-          <a href="#!" data-filter=".wordpress">Wordpress</a>
+          <a href="#!" data-filter=".cloud-devops">Cloud & DevOps</a>
         </li>
-      </ul>
+        <li>
+          <a href="#!" data-filter=".cybersecurity">Cybersecurity</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".digital-marketing">Digital Marketing</a>
+        </li>
+      </ul>      
       <div class="row event_box">
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer webdev">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="assets/images/course-01.jpg" alt=""></a>
-              <span class="category">Webdesign</span>
-              <span class="price"><h6><em>$</em>160</h6></span>
+              <a href="https://namastedev.com/learn/namaste-react" target="_blank"><img src="assets/images/akshay.jpg" alt=""></a>
+              <span class="category">React</span>
+              <span class="price"><h6><em>₹</em>2159</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">Stella Blair</span>
-              <h4>Learn Web Design</h4>
+              <span class="author">Akashy Saini</span>
+              <h4>Namaste React From Zero to Hero</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer programming">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="assets/images/course-02.jpg" alt=""></a>
-              <span class="category">Development</span>
-              <span class="price"><h6><em>$</em>340</h6></span>
+              <a href="https://www.udemy.com/course/datastructurescncpp/?couponCode=ST14MT101024" target="_blank"><img src="assets/images/abdul.jpg" alt=""></a>
+              <span class="category">DSA in C and C++</span>
+              <span class="price"><h6><em>₹</em>449</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">Cindy Walker</span>
-              <h4>Web Development Tips</h4>
+              <span class="author">Abdul Bari</span>
+              <h4>Mastering Data Structures & Algorithms using C and C++</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design wordpress">
+        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer digital-marketing">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="assets/images/course-03.jpg" alt=""></a>
-              <span class="category">Wordpress</span>
-              <span class="price"><h6><em>$</em>640</h6></span>
+              <a href="https://www.udemy.com/course/digital-marketing-guide/?couponCode=ST14MT101024#instructor-1" target="_blank"><img src="assets/images/jesper.jpg" alt=""></a>
+              <span class="category">Digital Marketing</span>
+              <span class="price"><h6><em>₹</em>449</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">David Hutson</span>
-              <h4>Latest Web Trends</h4>
+              <span class="author">Robin & Jesper</span>
+              <h4>The Complete Digital Marketing Guide - 26 Courses in 1</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 development">
+        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer cloud-devops">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="assets/images/course-04.jpg" alt=""></a>
-              <span class="category">Development</span>
-              <span class="price"><h6><em>$</em>450</h6></span>
+              <a href="https://www.udemy.com/course/decodingdevops/?couponCode=ST14MT101024" target="_blank"><img src="assets/images/imran.jpg" alt=""></a>
+              <span class="category">DevOps/Cloud</span>
+              <span class="price"><h6><em>₹</em>449</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">Stella Blair</span>
-              <h4>Online Learning Steps</h4>
+              <span class="author">Imran Teli</span>
+              <h4>DevOps Beginners to Advanced with Projects</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress development">
+        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer webdev">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="assets/images/course-05.jpg" alt=""></a>
-              <span class="category">Wordpress</span>
-              <span class="price"><h6><em>$</em>320</h6></span>
+              <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=ST14MT101024" target="_blank"><img src="assets/images/yu.jpg" alt=""></a>
+              <span class="category">Web Dev</span>
+              <span class="price"><h6><em>₹</em>449</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">Sophia Rose</span>
-              <h4>Be a WordPress Master</h4>
+              <span class="author">Dr. Angela Yu</span>
+              <h4>The Complete 2024 Web Development Bootcamp</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
+        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer programming">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="https://www.udemy.com/course/java-se-programming/?couponCode=ST14MT101024" target="_blank"><img src="assets/images/abdul.jpg" alt=""></a>
+              <span class="category">Java Programming</span>
+              <span class="price"><h6><em>₹</em>449</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Abdul Bari</span>
+              <h4>Learn JAVA Programming - Beginner to Master</h4>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer cybersecurity">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="https://www.udemy.com/course/web-security-and-bug-bounty-learn-penetration-testing/?couponCode=ST14MT101024" target="_blank"><img src="assets/images/andrei.jpg" alt=""></a>
+              <span class="category">CyberSecurity</span>
+              <span class="price"><h6><em>₹</em>499</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Andrei Neagoie</span>
+              <h4>Web Security & Bug Bounty: Learn Penetration Testing</h4>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer webdev">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="https://www.udemy.com/course/complete-web-designer-mobile-designer-zero-to-mastery/?couponCode=ST14MT101024" target="_blank"><img src="assets/images/andrei.jpg" alt=""></a>
+              <span class="category">UI/UX</span>
+              <span class="price"><h6><em>₹</em>499</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Andrei Neagoie</span>
+              <h4>Complete Web & Mobile Designer: UI/UX, Figma, +more</h4>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer programming">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="https://www.udemy.com/course/spring-5-with-spring-boot-2/?couponCode=ST14MT101024#instructor-1" target="_blank"><img src="assets/images/navin.jpg" alt=""></a>
+              <span class="category">Java Full stack Dev</span>
+              <span class="price"><h6><em>₹</em>499</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Navin Reddy</span>
+              <h4>Java Spring Framework 6 with Spring Boot 3</h4>
+            </div>
+          </div>
+        </div>
+      </div>      
+    <!--<div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
           <div class="events_item">
             <div class="thumb">
               <a href="#"><img src="assets/images/course-06.jpg" alt=""></a>
               <span class="category">Webdesign</span>
-              <span class="price"><h6><em>$</em>240</h6></span>
+              <span class="price"><h6><em>₹</em>240</h6></span>
             </div>
             <div class="down-content">
               <span class="author">David Hutson</span>
               <h4>Full Stack Developer</h4>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-06.jpg" alt=""></a>
-              <span class="category">Webdesign</span>
-              <span class="price"><h6><em>$</em>240</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">David Hutson</span>
-              <h4>Full Stack Developer</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-06.jpg" alt=""></a>
-              <span class="category">Webdesign</span>
-              <span class="price"><h6><em>$</em>240</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">David Hutson</span>
-              <h4>Full Stack Developer</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-06.jpg" alt=""></a>
-              <span class="category">Webdesign</span>
-              <span class="price"><h6><em>$</em>240</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">David Hutson</span>
-              <h4>Full Stack Developer</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-06.jpg" alt=""></a>
-              <span class="category">Webdesign</span>
-              <span class="price"><h6><em>$</em>240</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">David Hutson</span>
-              <h4>Full Stack Developer</h4>
-            </div>
-          </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

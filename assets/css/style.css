@@ -943,7 +943,6 @@ h2.accordion-header button {
 Courses Style
 --------------------------------------------- 
 */
-
 .courses {
   margin-top: 160px;
 }
@@ -973,8 +972,6 @@ Courses Style
   transition: all .3s;
 }
 
-.event_filter li
-
 .event_filter li a.is_active,
 .event_filter li a:hover {
   color: #7a6ad8;
@@ -984,10 +981,15 @@ Courses Style
   position: relative;
   border-radius: 25px;
   overflow: hidden;
+  margin-bottom: 20px;
+  min-height: 300px; 
 }
 
 .events_item .thumb img {
-  margin-bottom: -5px;
+  margin-bottom: 0; 
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .events_item .thumb span.category {
@@ -1035,11 +1037,12 @@ Courses Style
 .events_item {
   background-color: #f1f0fe;
   border-radius: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 40px; 
   position: relative;
   justify-content: center;
   align-items: center;
-} 
+  padding-bottom: 30px; 
+}
 
 .events_item .down-content {
   padding: 20px 30px 25px 30px;
@@ -1064,6 +1067,19 @@ Courses Style
 
 .events_item:hover .thumb span.price {
   transform: scale(1.2);
+}
+
+/* Fix the height of event box to ensure spacing */
+.event_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event_box .events_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Make sure each item takes up the full height */
 }
 
 
